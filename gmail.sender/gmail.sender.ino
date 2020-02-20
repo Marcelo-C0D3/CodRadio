@@ -3,7 +3,7 @@
 #include "timer.h"
 
 #pragma region Globals
-const char* ssid = "Arduino";                           // WIFI network name
+const char* ssid = "Arduino";                           // WIFI network name e
 const char* password = "@rdu1n0s";                       // WIFI network password
 uint8_t connection_state = 0;                    // Connected to WIFI or not
 uint16_t reconnect_interval = 10000;             // If not connected wait time to try again
